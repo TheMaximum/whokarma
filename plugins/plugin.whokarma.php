@@ -3,11 +3,11 @@
 /**
  * @name plugin.whokarma.php
  * @date 20-02-2012
- * @version v0.1.2
- * @website www.klaversma.eu
+ * @version v0.1.3
+ * @website http://mp.klaversma.eu/plugins/whokarma
  *
  * @author Max "TheM" Klaversma
- * @copyright 2010 - 2012
+ * @copyright 2010 - 2013
  *
  * Original made for XAseco1/TrackMania Forever by Milenco.
  *
@@ -38,7 +38,7 @@ class WhoKarma {
 
 	function onInit($aseco) {
 		$this->Aseco = $aseco;
-		$this->version = '0.1.2';
+		$this->version = '0.1.3';
 
 		// Register this to the global version pool (for up-to-date checks)
 		$this->Aseco->plugin_versions[] = array(
